@@ -1,0 +1,12 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "medicines",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "firstAidKitId", "order": "ASCENDING" },
+        { "fieldPath": "expirationDate", "order": "ASCENDING" }
+      ]
+    }
+  ]
+} 

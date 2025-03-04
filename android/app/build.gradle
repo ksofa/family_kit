@@ -88,4 +88,7 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"
+    implementation platform('com.google.firebase:firebase-bom:30.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
 }
